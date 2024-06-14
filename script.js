@@ -1,9 +1,4 @@
 
-       
-
-    
-
-
 
 
 const caixaPrincipal = document.querySelector(".caixa-principal");
@@ -14,67 +9,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Qual característica você valoriza mais em um animal de estimação?",
+        enunciado: "Qual a sua bebida preferida em um churrasco?",
         alternativas: [
             {
-                texto: "Independência!",
-                afirmacao: "principal característica de um gato."
+                texto: "Cerveja/Caipirinha!",
+                afirmacao: "Você é atraído (a) pelo calor e pela lealdade inabalável."
             },
             {
-                texto: "Companheirismo!",
-                afirmacao: "principal característica de um cachorro."
+                texto: "Suco/Refri!",
+                afirmacao: "Você é atraído(a) pelo mistério e pela elegância."
             }
         ]
     },
     {
-        enunciado: "Qual tipo de espaço você tem disponível em casa?",
+        enunciado: "O que você faz assim que chega no churrasco?",
         alternativas: [
             {
-                texto: "Pequeno apartamento .",
-                afirmacao: "lugares pequenos são perfeitos para gatos, "
+                texto: "Vai direto para a churrasqueira ajudar a preparar a carne.",
+                afirmacao: "você é o Mestre do Churrasco, "
             },
             {
-                texto: "Casa com quintal",
-                afirmacao: "quintais são perfeitos para cachorros, já que são muito ativos,"
+                texto: "Procura um lugar confortável para sentar e conversar",
+                afirmacao: "você é sociável e atrai pessoas por natureza."
             }
         ]
     },
     {
-        enunciado: "Quanto tempo você pode dedicar ao exercício diário do seu animal de estimação?",
+        enunciado: "Qual o seu prato preferido no churrasco?",
         alternativas: [
             {
-                texto: "Pouco tempo.",
-                afirmacao: "gatos por serem independentes, tomam até banho sozinhos e gostam de ficar sozinhos,"
+                texto: "Picanha/ linguiça.",
+                afirmacao: "o Animador,"
             },
             {
-                texto: "Muito tempo.",
-                afirmacao: "cachorros demandam muito do seu tempo, são carentes."
+                texto: "Macarronese/ pão de alho.",
+                afirmacao: "o Engraçado."
             }
         ]
     },
     {
-        enunciado: "Como você lida com a limpeza?",
+        enunciado: "Como você contribui para o churrasco?",
         alternativas: [
             {
-                texto: "Estou bem com uma caixa de areia.",
-                afirmacao: "Caixas de areia são o ideal de um gato,."
+                texto: "Leva a carne/bebidas.",
+                afirmacao: "o Ajudante,."
             },
             {
-                texto: "Prefiro levar o animal para passear e limpar o quintal ",
-                afirmacao: "Cachorros amam passear, e muito coco.. prepare sua sacola,"
+                texto: "Leva sobremesas/música.",
+                afirmacao: "o Degustador,"
             }
         ]
     },
     {
-        enunciado: "Qual das seguintes qualidades é mais importante para você? ",
+        enunciado: "Qual é o seu papel na churrasqueira? ",
         alternativas: [
             {
-                texto: "Discrição e independência.",
-                afirmacao: "O gato é o ser perfeito para ti!!"
+                texto: "Mestre do churrasco, sempre controlando a grelha.",
+                afirmacao: "O churrasco sem você, nunca aconteceria! "
             },
             {
-                texto: "Lealdade e proteção.",
-                afirmacao: "Você está pronto para adotar um cachorrinho! "
+                texto: "Degustador, sempre provando a carne antes de servir.",
+                afirmacao: "Você é aquele que faz falta para darmos uma boa risada, e atualizar as fofocas! "
             }
         ]
     },
@@ -119,5 +114,7 @@ function mostraResultado() {
 }
 
 mostraPergunta();
+
+            
 
             
